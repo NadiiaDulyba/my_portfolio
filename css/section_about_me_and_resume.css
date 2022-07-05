@@ -1,0 +1,175 @@
+.profile_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.profile.active {
+    display: block;
+}
+.my_profile {
+    display: flex;
+}
+.skills {
+    width: 25%;
+    margin: 0 0 0 0;
+}
+.skills button.active {
+    font-weight: bold;
+    background-color:  rgb(238, 94, 11);
+    color: white;
+    font-weight: bold;
+}
+.skills button {
+    padding: 40px;
+    border: 1px solid #dcdfe3;
+    width: 100%;
+    height: 120px;
+    font-size: 16px;
+    transition: all ease 1s;
+}
+.button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(238, 94, 11);
+}
+.profile {
+    position: absolute;
+    border: 1px solid #dcdfe3;
+    width: 97.1%;
+    margin-left: 29px;
+    display: none;
+}
+.information {
+    display: flex;
+}
+.light_gray {
+    background-color: #dcdfe3;
+    padding: 40px;
+    margin: 0;
+    color: rgb(238, 94, 11);
+    font-size: 30px;
+    text-align: center;
+}
+.profile p {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Akshar', sans-serif;
+    font-size: 17px;
+    margin: 15px;
+}
+.experience {
+    margin: 15px;
+    font-family: 'Akshar', sans-serif;
+    font-size: large;
+}
+.education {
+    margin: 15px;
+    font-family: 'Akshar', sans-serif;
+    font-size: large;
+}
+.skills_rate {
+    display:flex;
+    font-family: 'Akshar', sans-serif;
+    font-size: large;
+    margin: 30px;
+    padding:10px;
+}
+.first_colum_stars {
+    width: 50%;
+}
+.skills_rate ion-icon {
+    color: rgb(238, 94, 11);
+}
+.button_download {
+    font-weight: bold;
+    background-color:  rgb(238, 94, 11);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+.button_visit {
+    font-weight: bold;
+    background-color: white;
+    color: rgb(238, 94, 11);
+    border: 2px solid rgb(238, 94, 11);
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+@media screen and (max-width: 1100px) {
+    .skills button {
+        max-width: 250px;
+        height: 120px;
+        font-size: 16px;
+    }
+    .profile .light_gray {
+        font-size: 25px;
+    }
+    .profile p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .skills button {
+        max-width: 200px;
+        height: 70px;
+        font-size: 12px;
+    }
+    .profile .light_gray {
+        font-size: 17px;
+        padding: 30px;
+    }
+    .profile p {
+        font-size: 14px;
+        margin:5px;
+    }
+    .information {
+        height:200px;
+    }
+    .information div p {
+        margin:5px;
+    }
+    .click button {
+        padding: 10px;
+        width: 150px;
+        height: 7px;
+        font-size: 10px;
+    }
+    .button_download {
+        max-height: 7px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .my_profile {
+        display: block;
+    }
+    .skills {
+        width: 100%;
+        display: flex;
+    }
+    .skills button {
+        max-width: 100%;
+        height: 80px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .my_profile {
+        height: 530px;
+    }
+    .profile {
+        width: 100%;
+        margin-left: 0px;
+        display: none;
+    }
+    .information {
+        height: 270px;
+    }
+    .profile p {
+        font-size: 15px;
+    }
+    .information div p {
+        margin:10px;
+    }
+}

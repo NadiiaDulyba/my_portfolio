@@ -1,0 +1,22 @@
+.latest_posts {
+    display: flex;
+    justify-content: space-around;
+}
+div.post:hover img {
+    opacity: 1;
+    -moz-transform:scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div.post img {
+    transition: all ease 1s; 
+}
+.post {
+    max-width: 380px;
+}
+@media screen and (max-width: 1100px) {
+    .latest_posts {
+        flex-wrap: wrap;
+    }
+}

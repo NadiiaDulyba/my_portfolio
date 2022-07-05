@@ -1,10 +1,45 @@
-html {
-    background-image: url(my_project_1/fon.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.class_for_teg_h {
+    display: flex;   
+    justify-content: center;
+}
+h3 {
+    font-weight: bold;
+}
+.class_for_teg_h h2 {
+    position: relative;
+    opacity: 0.3;
+    font-size: 100px;
+    margin: 20px;
+} 
+@media screen and (max-width: 890px) {
+    .class_for_teg_h h2 {
+        font-size: 80px;
+        margin: 23px;
+    } 
+}
+@media screen and (max-width: 430px) {
+    .class_for_teg_h h2 {
+        font-size: 60px;
+        margin: 40px;
+    } 
+    .gray_color span {
+        font-size: 45px;
+    }
+}
+.class_for_teg_h h3 {
+    position: absolute;
+    font-size: 60px;
+    margin: 40px;
+}
+h2 {
+    position: relative;
+    opacity: 0.3;
+    font-size: 100px;
+    margin: 20px;
+}
+.gray_color {
+    color: gray;
+}
+.orange_color {
+    color: rgb(238, 94, 11);
+}
